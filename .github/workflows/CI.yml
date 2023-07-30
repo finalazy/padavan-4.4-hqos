@@ -22,7 +22,7 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7621-usb-1"
-            targets: "XY-C1 B70"
+            targets: "XY-C1"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
